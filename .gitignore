@@ -31,6 +31,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Local usage tracking
+.api_usage.json
+
 # Logs and temp files
 *.log
 *.tmp
