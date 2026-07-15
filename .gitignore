@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Streamlit / local app data
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Chroma / vector indexes
+chroma/
+*.chroma
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/

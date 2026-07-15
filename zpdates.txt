@@ -1,0 +1,7 @@
+no need personal api (ask claude)
+
+change UI
+
+embedding via local only using gemini is expensive so exclude tht feature 
+although other freature use diff model but indexing would be abble to do only 100 chunks per days max
+
