@@ -1,6 +1,6 @@
 """
 app.py
-CodebaseQ&A: Ask Your Repository -- Streamlit front-end.
+CodeCite: Ask Your Repository -- Streamlit front-end.
 
 Run with: streamlit run app.py
 """
@@ -18,7 +18,7 @@ from readme_generator import generate_readme_section
 
 load_dotenv()
 
-st.set_page_config(page_title="CodebaseQ&A", page_icon="🧭", layout="wide")
+st.set_page_config(page_title="CodeCite", page_icon="🧭", layout="wide")
 
 # ---------------------------------------------------------------- session --
 if "vectorstore" not in st.session_state:
@@ -30,7 +30,7 @@ if "chat_history" not in st.session_state:
 
 # ------------------------------------------------------------------ sidebar
 with st.sidebar:
-    st.title("🧭 CodebaseQ&A")
+    st.title("🧭 CodeCite")
     st.caption("Ask your repository where a feature lives.")
 
     google_api_key = st.text_input(

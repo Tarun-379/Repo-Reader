@@ -1,4 +1,4 @@
-# CodebaseQ&A: Ask Your Repository
+# CodeCite: Ask Your Repository
 
 A Streamlit app that indexes a local folder or GitHub repo and answers
 "where is X implemented?" questions with real file paths, line numbers, and
